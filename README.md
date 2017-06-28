@@ -4,6 +4,7 @@
 
 ```
 from curlcache import QueryCache
+
 url = "http://xiaorui.cc/loction/api"
 res = QueryCache()
 res.json_query(url)
